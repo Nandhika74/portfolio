@@ -1,0 +1,8 @@
+
+{
+  "name": "Nandhika S Portfolio & AI Assistant",
+  "description": "Professional student portfolio for Nandhika S, AI & Data Science Undergraduate, featuring a Gemini-powered personal AI assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
