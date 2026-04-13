@@ -84,29 +84,7 @@ const App: React.FC = () => {
           </div>
         </section>
 
-        <section id="testimonials" className="py-24">
-          <div className="container mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold mb-16 font-heading reveal">What People <span className="gradient-text">Say</span></h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-              {TESTIMONIALS.map((t, i) => (
-                <div key={t.id} className={`glass p-8 rounded-[40px] text-left relative overflow-hidden group reveal delay-${(i + 1) * 200}`}>
-                  <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
-                    <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017V14H17.017C15.9124 14 15.017 13.1046 15.017 12V9C15.017 7.89543 15.9124 7 17.017 7H20.017C21.1216 7 22.017 7.89543 22.017 9V21H14.017ZM2.017 21L2.017 18C2.017 16.8954 2.91243 16 4.017 16H7.017V14H5.017C3.91243 14 3.017 13.1046 3.017 12V9C3.017 7.89543 3.91243 7 5.017 7H8.017C9.12157 7 10.017 7.89543 10.017 9V21H2.017Z" /></svg>
-                  </div>
-                  <p className="text-slate-300 text-lg italic mb-8 relative z-10">"{t.content}"</p>
-                  <div className="flex items-center gap-4">
-                    <img src={t.avatar} alt={t.name} className="w-12 h-12 rounded-full border border-white/10" />
-                    <div>
-                      <h4 className="font-bold text-white">{t.name}</h4>
-                      <p className="text-sm text-slate-500">{t.role}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
+      
         <section id="achievements" className="py-24 bg-slate-900/50">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-16 text-center font-heading reveal">Achievements & Leadership</h2>

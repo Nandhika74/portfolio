@@ -1,5 +1,5 @@
 import React from 'react';
-import { Project, Skill, Testimonial } from './types';
+import { Project, Skill, } from './types';
 
 export const PERSONAL_INFO = {
   name: "Nandhika S",
@@ -48,6 +48,7 @@ export const PROJECTS: Project[] = [
     tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
     link: "#",
   },
+
 ];
 
 export const SKILLS: Skill[] = [
@@ -63,19 +64,3 @@ export const SKILLS: Skill[] = [
   { name: "Git/GitHub", category: "Tools", level: 90 },
 ];
 
-export const TESTIMONIALS: Testimonial[] = [
-  {
-    id: "1",
-    name: "Alfido Tech",
-    role: "Internship Provider",
-    content: "Nandhika demonstrated exceptional initiative during her Machine Learning internship, delivering accurate classification models for flower and survival prediction.",
-    avatar: "https://picsum.photos/seed/corp/100/100",
-  },
-  {
-    id: "2",
-    name: "Care Hackathon",
-    role: "Competition Organizers",
-    content: "Finalist entry for the AI-powered Skin Medical Patch. Nandhika showed great innovative thinking in healthcare AI.",
-    avatar: "https://picsum.photos/seed/hack/100/100",
-  },
-];

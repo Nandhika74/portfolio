@@ -6,14 +6,14 @@ const EXPERIENCES = [
         id: '1',
         role: "AI & Data Science Student",
         company: "SKCET",
-        duration: "2023 - Present",
+        duration: "2024 - Present",
         description: "Focusing on Machine Learning, Deep Learning, and Web Technologies. Maintaining a CGPA of 8.33."
     },
     {
         id: '2',
         role: "Machine Learning Intern",
         company: "Alfido Tech",
-        duration: "Aug 2024 - Sep 2024",
+        duration: "nov 2025 - dec 2025",
         description: "Built classification models for flower species and survival prediction. Demonstrated 95% accuracy in model testing."
     },
     {
@@ -26,8 +26,8 @@ const EXPERIENCES = [
     {
         id: '4',
         role: "Club Coordinator",
-        company: "MCT Club",
-        duration: "2024 - Present",
+        company: "data science Club",
+        duration: "2026 - Present",
         description: "Organizing technical workshops and events. Managing team coordination and event logistics."
     }
 ];
